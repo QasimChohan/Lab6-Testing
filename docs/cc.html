@@ -1,0 +1,61 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="cc.js"></script>
+    
+    <title>Caesar Cipher</title>
+    
+    <body>
+        <ul>
+            <li><a href="index.html">Main Menu</a></li>
+            <li><a class="active" href="cc.html">Caesar Cipher</a></li>
+            <li><a href="rot13.html">ROT13</a></li>
+            <li><a href="base64.html">BASE64</a></li>
+        </ul>
+    </body>
+    
+    <div class="header">
+        <h1 style="text-align: center">Caesar Cipher</h1>
+        <div class="center">
+            <h2 style="text-align: center">What is Caesar Cipher?</h2>
+            <p>Caesar Cipher is a cipher method, which substitutes each letter in the alphabet a numbers of places in the alphabet. The two textboxes below will allow you to try the cipher for yourself and see what your message is encoded with the Caeser Cipher.This Cipher is names after Julius Caeser who used the cipher to communicate with his army in private. <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Click here to learn more about the cipher</a></p>
+            <p><img src="cc.jpeg" style="width:300px;height:200px;"><iframe width="300" height="200" src="https://www.youtube.com/embed/o6TPx1Co_wg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>To use the Caesar Cipher first, in the 1st textbox input your plaintext and then from the small dropdown box below select the shift you'd like. Finally click encrypt and your encrypted message will appear in the empty textbox. </p>
+            
+            <input placeholder="Encrypt"id = "textbox" size = "90">
+            <p><input placeholder = "Decrypt" id ="output" size="90">
+            
+         <p><select id="shiftmenu"> 
+                <option value="1">1</option>
+                <option value="2">2</option> 
+                <option value="3">3</option> 
+                <option value="4">4</option> 
+                <option value="5">5</option> 
+                <option value="6">6</option> 
+                <option value="7">7</option> 
+                <option value="8">8</option> 
+                <option value="9">9</option> 
+                <option value="10">10</option> 
+                <option value="11">11</option> 
+                <option value="12">12</option> 
+                <option value="13">13</option> 
+                <option value="14">14</option> 
+                <option value="15">15</option> 
+                <option value="16">16</option> 
+                <option value="17">17</option> 
+                <option value="18">18</option> 
+                <option value="19">19</option> 
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option>
+            </select>
+                
+            <p><input type="button" class="button" value="Encrypt" onclick="encrypt()">
+                <input type="button" class="button" value="Decrypt" onclick="decrypt()">
+        </div>
+        <div class="footer">
+            <p>Qasim Chohan 40340739 Edinburgh Napier University©</p>
+        </div>
+        </html>

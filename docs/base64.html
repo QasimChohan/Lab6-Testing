@@ -1,0 +1,30 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="base64.js"></script>
+    
+    <title>Base64</title>
+    
+    <ul>
+        <li><a href="index.html">Main Menu</a></li>
+        <li><a href="cc.html">Caesar Cipher</a></li>
+        <li><a href="rot13.html">ROT13</a></li>
+        <li><a class="active" href="base64.html">BASE64</a></li>
+    </ul> 
+    
+    <h1 style="text-align: center">Base64 Cipher</h1>
+    <div class="center">
+        <h2 style="text-align: center">What is Base64?</h2>
+        <p>Base64 is another form on encryption method which allows the user to convert ASCII characters into Base64 encryption. A byte is equal to 8 bits, Base64 will split the bytes into groups of 6 bits and the groups will be placed into one of the 64 characters. The table below shows the Base64 table.<a href="https://en.wikipedia.org/wiki/Base64">Click here to learn more about the cipher.</a></p>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/VbbOF0OPegc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <p><input placeholder="Type Here" id="output" name="output" size="90">
+        <p><input placeholder="" id="message" name="message" size="90">
+        <p><input name="button1" value="Encrypt" class="button" onclick="encode()"type="button"> 
+            <input type="button" class="button" value="Decrypt" onclick="decrypt()">
+    </div>
+    <div class="footer">
+        <p>Qasim Chohan 40340739 Edinburgh Napier University©</p>
+    </div>
+</html>
+
+
